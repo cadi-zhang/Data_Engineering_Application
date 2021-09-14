@@ -1,19 +1,15 @@
-# data_challenge
+# data_engineering_challenge_application
 
 # function splits turns the input into a list
 def split(word):
     return [char for char in word]
 
 # function rejoins list into a string
-
-
 def listToString(s):
     strl = ""
     return(strl.join(s))
 
 # function evaluates inputs and outputs sorted numbers
-
-
 def evaluate_input():
     # if user_input.lstrip('-').replace('.', '', 1).isdigit():
     if user_input.isdigit():
@@ -50,7 +46,6 @@ def evaluate_input():
                 print(listToString(num_list))
         else:
             print("Please Enter in Digits")
-
 
 # run function evaluate_input()
 user_input = input('Enter an input: ')
